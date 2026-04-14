@@ -23,20 +23,14 @@ Steam Store sayfasındaki **$** fiyatlarını canlı döviz kuruyla **₺** cins
 
 ---
 
-## Kurulum (Geliştirici Modu)
+## Kurulum
 
-1. Bu repoyu klonlayın veya ZIP olarak indirin:
-   ```bash
-   git clone https://github.com/kullanici-adi/steam-try-extension.git
-   ```
-
-2. Chrome'da `chrome://extensions` adresine gidin.
-
-3. Sağ üstten **Geliştirici modu**nu açın.
-
+1. Yeşil **Code** butonuna tıklayın → **Download ZIP** seçin ve ZIP'i bilgisayarınıza çıkartın.
+2. Chrome'da adres çubuğuna `chrome://extensions` yazın ve Enter'a basın.
+3. Sağ üst köşeden **Geliştirici modu**nu açın.
 4. **Paketlenmemiş öğe yükle** butonuna tıklayın.
-
-5. `steam-try-extension` klasörünü seçin.
+5. ZIP'ten çıkardığınız `steam-try-extension` klasörünü seçin.
+6. Eklenti listeye eklenir, artık kullanıma hazır.
 
 ---
 

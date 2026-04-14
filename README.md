@@ -6,7 +6,7 @@ Steam Store sayfasındaki **$** fiyatlarını canlı döviz kuruyla **₺** cins
 
 ## Ekran Görüntüleri
 
-![Sayfa üzerindeki fiyat çevirisi](screenshots/screenshot1.png)
+![Sayfa üzerindeki fiyat çevirisi](https://i.hizliresim.com/7dgtiyx.png)
 
 ![Popup paneli](screenshots/screenshot2.png)
 

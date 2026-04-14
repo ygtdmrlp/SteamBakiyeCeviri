@@ -72,4 +72,4 @@ Her iki kaynak da başarısız olursa son önbellek değeri kullanılır.
 
 ## Yapımcı
 
-Yiğit
+Ygtdmrlp

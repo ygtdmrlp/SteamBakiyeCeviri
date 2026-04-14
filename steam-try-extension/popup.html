@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Steam TRY</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="bg-slate-900 text-slate-100 w-80">
+    <div class="p-4 flex flex-col gap-3">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center gap-2 min-w-0">
+          <div
+            class="bg-slate-800 border border-slate-700 rounded-lg"
+            style="width: 32px; height: 32px; display: flex; align-items: center; justify-content: center"
+          >
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path
+                d="M12 2.5C6.75 2.5 2.5 6.75 2.5 12S6.75 21.5 12 21.5 21.5 17.25 21.5 12 17.25 2.5 12 2.5Z"
+                stroke="#334155"
+                stroke-width="1.5"
+              />
+              <path
+                d="M10.2 7.2h4.4c1.3 0 2.2.9 2.2 2.1 0 1.1-.8 2.1-2.2 2.1H8.9"
+                stroke="#6ee7b7"
+                stroke-width="1.7"
+                stroke-linecap="round"
+              />
+              <path
+                d="M10.2 11.4h4.4c1.5 0 2.4 1 2.4 2.2 0 1.2-.9 2.2-2.4 2.2H10.2"
+                stroke="#6ee7b7"
+                stroke-width="1.7"
+                stroke-linecap="round"
+              />
+              <path d="M10.2 6.3v11.4" stroke="#6ee7b7" stroke-width="1.7" stroke-linecap="round" />
+            </svg>
+          </div>
+
+          <div class="min-w-0">
+            <div class="text-base font-semibold">Steam USD → TRY</div>
+            <div id="statusText" class="text-xs text-slate-300">Yükleniyor…</div>
+          </div>
+        </div>
+        <div id="toggle" class="steamtry-switch" role="switch" aria-checked="false" tabindex="0" data-on="0">
+          <div class="steamtry-switch-knob"></div>
+        </div>
+      </div>
+
+      <div class="bg-slate-800 border border-slate-700 rounded-xl p-3 flex flex-col gap-1">
+        <div class="flex items-center justify-between">
+          <div class="text-sm font-semibold">Kur</div>
+          <div id="rateText" class="text-sm text-emerald-300 font-semibold">—</div>
+        </div>
+        <div id="rateMeta" class="text-xs text-slate-400">—</div>
+      </div>
+
+      <div class="flex items-center gap-2">
+        <button id="refreshBtn" class="steamtry-btn w-full" type="button">Kuru yenile</button>
+      </div>
+
+      <div id="hint" class="text-xs text-slate-400">
+        Bu eklenti sadece <span class="text-slate-300">store.steampowered.com</span> üzerinde çalışır.
+      </div>
+
+      <div class="bg-slate-800 border border-slate-700 rounded-xl p-3 flex flex-col gap-2">
+        <div class="flex items-center justify-between">
+          <div class="text-xs text-slate-400">Yapımcı</div>
+          <div id="makerText" class="text-xs text-slate-300">—</div>
+        </div>
+        <div class="flex items-center justify-between">
+          <div class="text-xs text-slate-400">Sürüm</div>
+          <div id="versionText" class="text-xs text-slate-300">—</div>
+        </div>
+        <button id="checkUpdatesBtn" class="steamtry-btn w-full" type="button">Güncellemeleri kontrol et</button>
+        <div id="updateText" class="text-xs text-slate-400">—</div>
+      </div>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
